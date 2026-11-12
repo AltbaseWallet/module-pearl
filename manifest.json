@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "pearl",
+  "name": "Pearl",
+  "ticker": "PRL",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "pearl-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "pearl-wallet",
+  "coin": {
+    "id": "pearl",
+    "name": "Pearl",
+    "ticker": "PRL",
+    "explorerUrl": "https://blockbook.pearlresearch.ai",
+    "networkId": "pearl-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "blockbook",
+    "walletEngine": "pearl-utxo",
+    "cryptoParams": {
+      "p2pkhPrefix": 0,
+      "p2shPrefix": 0,
+      "wifPrefix": 128,
+      "derivationPath": "m/86'/808276'/0'/0/0",
+      "bech32Hrp": "prl",
+      "addressType": "p2tr",
+      "sighashStyle": "taproot"
+    }
+  },
+  "icon": "icon.png"
+}
